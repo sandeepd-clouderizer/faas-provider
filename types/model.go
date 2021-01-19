@@ -55,6 +55,7 @@ type Secret struct {
 type FunctionResources struct {
 	Memory string `json:"memory,omitempty"`
 	CPU    string `json:"cpu,omitempty"`
+	GPU    string `json:"nvidia.com/gpu,omitempty"`
 }
 
 // FunctionStatus exported for system/functions endpoint
